@@ -23,7 +23,7 @@
     max-height: 63px;
     object-fit: cover;
 }
-.navigation-text-color{
-    color: grey;
+.text-grey{
+    color: rgb(144, 144, 144);
 
 }
