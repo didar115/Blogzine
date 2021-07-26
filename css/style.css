@@ -1,0 +1,25 @@
+
+.dd img{
+    max-height: 310px;
+    object-fit:cover;
+    margin-bottom: 10px;
+
+
+}
+.slipt-button{
+    bottom: 45px;
+    position: absolute;
+}
+.trending-side{
+    height: 55px;
+
+}
+.trending-side img{
+    object-fit: cover;
+    max-height: 55px;
+}
+
+.recent{
+    max-height: 63px;
+    object-fit: cover;
+}
