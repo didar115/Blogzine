@@ -1,15 +1,11 @@
 
-.dd img{
-    max-height: 310px;
-    object-fit:cover;
-    margin-bottom: 10px;
-
-
-}
 .slipt-button{
     bottom: 45px;
     position: absolute;
 }
+
+
+/* trending section img height  */
 .trending-side{
     height: 55px;
 
@@ -23,7 +19,31 @@
     max-height: 63px;
     object-fit: cover;
 }
+
+
+
+/* text color for footer section  */
 .text-grey{
     color: rgb(144, 144, 144);
 
+}
+
+/* img hover transition for hero section  */
+.img-part{
+    position: relative;
+    overflow: hidden;
+}
+.img-part:hover img{
+    transform: scale(1.2);
+    transition:  transform 2s ease;
+}
+
+ /* hero section card overlay text  */
+.card-img-text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 16px;
+   
 }
